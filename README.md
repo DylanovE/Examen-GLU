@@ -23,9 +23,11 @@ npm install
 ```sh
 npm run dev & json-server --watch db.json -p 3001  
 ```
-or seperate as
+or seperate if the above did not work as
 ```sh
 npm run dev
+```
+```sh
 json-server --watch db.json -p 3001  
 ```
 
