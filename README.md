@@ -1,6 +1,7 @@
 # Enkeltje Zelfstandig Website
 
-This is a website build for Enkeltje zelfstandig for cooking courses, this website is mainly based on front-end as i personally would use a external app for managing the data due to security reasons.
+This is a website build for Enkeltje zelfstandig for cooking courses, this website is mainly based on front-end as i personally would use a external CMS for managing the data due to security reasons.
+Because of this there is no login button visible, but you can go to /login and login to the basic cms with login: admin admin.
 
 ## Recommended IDE Setup
 
