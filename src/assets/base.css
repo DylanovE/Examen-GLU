@@ -1,0 +1,178 @@
+/* color palette */
+:root {
+  --vt-c-white: #ffffff;
+
+  --vt-c-crimson: #E8231A;
+  --vt-c-crimson-6: #E8231A99;
+
+  --vt-c-dark-navy: #072329;
+  
+  --vt-c-light-ivory: #f4f2ef;
+  
+  --vt-c-dimgray: #707070 ;
+
+  --vt-c-black: #000000 ;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html {
+  background: var(--vt-c-dark-navy); /* in some browsers a small white bar will appear below the footer, this avoids the bug. */
+}
+
+body {
+  min-height: 100vh;
+  background: var(--vt-c-white);
+  line-height: 1.6;
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* paddings */
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+/* text related */
+@font-face {
+  font-family: 'Roboto';
+  src: url('@/assets/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.text-big {
+  font-size: 20px;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+@media (max-width: 940px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+}
+
+/* colors */
+.white {
+  color: var(--vt-c-white);
+}
+
+.black {
+  color: var(--vt-c-black);
+}
+
+.dark-navy {
+  color: var(--vt-c-dark-navy);
+}
+
+.light-ivory {
+  color: var(--vt-c-light-ivory);
+}
+
+.crimson {
+  color: var(--vt-c-crimson);
+}
+
+.dimgray {
+  color: var(--vt-c-dimgray);
+}
+
+.bg-white {
+  background-color: var(--vt-c-white);
+}
+
+.bg-black {
+  background-color: var(--vt-c-black);
+}
+
+.bg-dark-navy {
+  background-color: var(--vt-c-dark-navy);
+}
+
+.bg-light-ivory {
+  background-color: var(--vt-c-light-ivory);
+}
+
+.bg-crimson {
+  background-color: var(--vt-c-crimson);
+}
+
+.bg-dimgray {
+  background-color: var(--vt-c-dimgray);
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+

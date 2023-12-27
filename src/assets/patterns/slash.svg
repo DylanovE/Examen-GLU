@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 20" width="120" height="20">
+  <defs>
+    <pattern id="slash-pattern" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#f2c4bf" stroke-width="4" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#slash-pattern)" />
+</svg>
